@@ -1,0 +1,35 @@
+/*here I have created a new variable newColor*/
+$newColor : blue;
+h2{
+    color : $newColor;
+}
+/* example of scss nesting*/
+ol{
+    font-size : 1.2em;
+    img{
+        border : 2px solid blue;
+        border-radius : 217px;
+    }
+}
+/* exmple of scss inheritence*/
+
+%heading{
+    text-decoration: underline;
+    font-size : 3em;
+    border :1px solid black;
+    border-radius : 124px;
+    width : 50%;
+    padding-left: 1.5em;
+}
+.ht{
+    @extend %heading;
+    background-color : gray;
+}
+.css{
+    @extend %heading;
+    background-color : blue;  
+}
+.js{
+    @extend %heading;
+    background-color: yellow;
+}

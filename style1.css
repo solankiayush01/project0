@@ -1,0 +1,37 @@
+/*here I have created a new variable newColor*/
+h2 {
+  color: blue;
+}
+
+/* example of scss nesting*/
+ol {
+  font-size: 1.2em;
+}
+
+ol img {
+  border: 2px solid blue;
+  border-radius: 217px;
+}
+
+/* exmple of scss inheritence*/
+.ht, .css, .js {
+  text-decoration: underline;
+  font-size: 3em;
+  border: 1px solid black;
+  border-radius: 124px;
+  width: 50%;
+  padding-left: 1.5em;
+}
+
+.ht {
+  background-color: gray;
+}
+
+.css {
+  background-color: blue;
+}
+
+.js {
+  background-color: yellow;
+}
+/*# sourceMappingURL=style1.css.map */

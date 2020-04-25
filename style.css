@@ -1,0 +1,46 @@
+h1{
+    text-decoration: underline;
+    color :darkblue;
+}
+body{
+    margin-left: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+ol img{
+border : 2px solid black;
+}
+ol img{
+    margin-top : 1.5em;
+    }
+
+    #id1{
+        background-color :lightskyblue;
+        padding : 19px;
+        color : red;
+        border: 2px solid blue;
+        border-radius: 7px;
+    }
+    table,tr,td{
+        border : 2px solid black;
+        border-collapse: collapse;
+
+    }
+    table{
+        width : 100%;
+    }
+    td{
+        padding : 13px;
+    }
+    a:hover{
+        color : green;
+    }
+    footer{
+        font-family: cursive;
+        background-color: black;
+        color :white;
+        height : 200px;
+        margin-top : 2em;
+        padding-left : 100px;
+        padding-top : 100px;
+    }
